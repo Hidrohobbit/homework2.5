@@ -54,6 +54,7 @@ void print_info(Figure &figure)
 {
     std::cout << figure.get_name() << ": " << figure.get_sides_count() << std::endl;
 }
+
 int main()
 {
     setlocale(LC_ALL, "Russian");
